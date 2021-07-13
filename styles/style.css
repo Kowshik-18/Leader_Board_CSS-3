@@ -233,12 +233,15 @@ h3.course-title{
     }
     .header-div{
         flex-direction: column;
+        margin-left: 55px;
     }
+    
     header nav ul{
         justify-content: center;
+        padding-left: 0px;
     }
     header nav ul li{
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
     .players, .blogs{
         grid-template-columns: repeat(1, 1fr);
